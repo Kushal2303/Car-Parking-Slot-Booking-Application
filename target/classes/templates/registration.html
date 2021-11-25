@@ -17,44 +17,44 @@
     <div class="container">
         <h1 class="display-4">REGISTRATION</h1>
         <div class="userData">
-            <form action="#" class="" th:action="@{/api/user/login}" th:object="${greeting}" method="post">
+            <form action="#" class="" action="@{/registration}" th:object="${greeting}" method="post">
                 <div class="row">
                     <div class="userInputFieldLeft">
-                        <label for="firstname">
-                            <input th:field="*{firstName}"  type="text" name="firstName" placeholder="FIRSTNAME">
-                        </label>
+<!--                        <label for="firstname">-->
+                            <input field="*{firstName}"  type="text" name="firstName" placeholder="FIRSTNAME">
+<!--                        </label>-->
                     </div>
 
                     <div class="userInputFieldRight">
-                        <label for="lastname">
-                            <input th:field="*{lastName}"  type="text" name="lastname" placeholder="LASTNAME">
-                        </label>
+<!--                        <label for="lastname">-->
+                            <input field="*{lastName}"  type="text" name="lastname" placeholder="LASTNAME">
+<!--                        </label>-->
                     </div>
                 </div>
                 <div class="row">
                     <div class="userInputFieldLeft">
-                        <label for="email">
-                            <input th:field="*{emailId}"  type="email" name="emailField" placeholder="EMAIL ID">
-                        </label>
+<!--                        <label for="email">-->
+                            <input field="*{emailId}"  type="email" name="emailField" placeholder="EMAIL ID">
+<!--                        </label>-->
                     </div>
 
                     <div class="userInputFieldRight">
-                        <label for="contact">
-                            <input th:field="*{phoneNumber}"  type="text" name="contact" placeholder="PHONE NUMBER">
-                        </label>
+<!--                        <label for="contact">-->
+                            <input field="*{phoneNumber}"  type="text" name="contact" placeholder="PHONE NUMBER">
+<!--                        </label>-->
                     </div>
                 </div>
                 <div class="row">
                     <div class="userInputFieldLeft">
-                        <label for="username">
-                            <input th:field="*{username}"  type="text" name="username" placeholder="USERNAME">
-                        </label>
+<!--                        <label for="username">-->
+                            <input field="*{username}"  type="text" name="username" placeholder="USERNAME">
+<!--                        </label>-->
                     </div>
 
                     <div class="userInputFieldRight">
-                        <label for="password">
-                            <input th:field="*{password}"  type="password" name="password" placeholder="PASSWORD">
-                        </label>
+<!--                        <label for="password">-->
+                            <input field="*{password}"  type="password" name="password" placeholder="PASSWORD">
+<!--                        </label>-->
                     </div>
                 </div>
                 <div class="create-account-btn">
